@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section>
+        <h2>requested video</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Veniam, illum laudantium quia optio consequatur enim obcaecati
+            placeat impedit, recusandae, praesentium expedita accusantium?
+            Excepturi velit dolorem ducimus quas culpa harum et.
+            Aut animi accusantium a maxime pariatur. Quibusdam,
+            beatae unde quidem aliquam autem quod quisquam ullam magni illum
+            laborum expedita repellat perspiciatis reprehenderit eligendi,
+            earum ducimus delectus nulla exercitationem similique
+            aut non impedit minima? Obcaecati repellat possimus nesciunt
+            soluta eum? Ratione pariatur temporibus, excepturi fugit dignissimos
+            quasi, praesentium similique quos, aspernatur expedita qui
+            ab officia neque odio nisi. Ratione ea earum libero omnis non.
+            Aperiam sapiente quod quidem reiciendis doloribus nihil?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Veniam, illum laudantium quia optio consequatur enim obcaecati
+            placeat impedit, recusandae, praesentium expedita accusantium?
+            Excepturi velit dolorem ducimus quas culpa harum et.
+            Aut animi accusantium a maxime pariatur. Quibusdam,
+            </p>
+   
+    <button class="btn">Click Here</button>
+    <div class="popup">
+        <h2>your content goes here...</h2>
+        <b class="close">x</b>
+    </div>
+    </section>
+    <script>
+        let btn = document.querySelector('.btn');
+        let popup = document.querySelector('.popup');
+        let close = document.querySelector('.close');
+
+        btn.onclick = function(){
+            popup.classList.add('active');
+        }
+        close.onclick = function(){
+            popup.classList.remove('active');
+        }
+    </script>
+</body>
+</html>
